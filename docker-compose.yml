@@ -3,6 +3,7 @@ app:
   links:
     - mongodb:mongo
   ports:
-    - 8080
+    - 7000:8080
+  restart: always  
 mongodb:
   image: mongo:latest
